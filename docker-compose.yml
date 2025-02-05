@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  secure:
+    container_name: secure
+    restart: always
+    build: ./secure
+    ports:
+      - "3000:3000"
